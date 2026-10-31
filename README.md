@@ -18,6 +18,8 @@ Browsers generally require a secure HTTPS connection to install a web app or ena
 
 Create a GitHub repository for this folder and push the project to its `main` branch. In the repository, open **Settings > Pages** and set the build and deployment source to **GitHub Actions**. The workflow in `.github/workflows/deploy-pages.yml` will publish the app on pushes to `main`; you can also run it manually from the Actions tab. GitHub Pages will show the HTTPS site URL when deployment finishes.
 
+If an initial deployment failed before Pages was enabled, enable it in the repository settings and rerun the failed workflow from the Actions tab.
+
 Open that URL on Android in Chrome, then choose **Install app** (or Chrome's **Install app** menu item). Open the installed app once while online so its files are cached; then test launching it offline and confirming habits survive closing and reopening it.
 
 ## Test
